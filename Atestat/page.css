@@ -1,0 +1,345 @@
+*{margin:0;padding: 0;}
+html, body
+{
+    height: 100%;
+}
+nav .navBar {
+    background: linear-gradient(175deg, #1abc9c 0%, #2ECC71 50%, #1abc9c 100%);
+    width: 100%;
+    overflow:hidden;
+    border-radius:7px;
+    z-index: 2;
+}
+.fixed {
+    position: fixed;
+    top:0px;
+}
+nav .navBar a {
+    text-align: center;
+    font-family: Allerta;
+    font-size: 150%;
+    color: #ecf0f1;
+    border:none;
+    padding: 10px 0px;
+    width:25%;
+    text-decoration: none;
+    float:left;
+    letter-spacing: 2px;
+}
+
+.overlay:hover{
+    background-color:rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.cutieCorp{
+    width: 100%;
+}
+
+.topDef img{
+    height: 100%;
+    opacity: 0.3;
+}
+
+.topDef .text{
+    font-family: Orbitron;
+    position: absolute;
+    color: #ecf0f1;
+    letter-spacing: 2px;
+    font-size: 2.3vw;
+    vertical-align: middle; 
+    text-align: center; 
+    background: -webkit-linear-gradient(175deg, #2ECC71 0%, #3498DB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20%;
+    padding-top: 15%;
+    z-index: 1;
+}
+.top1{
+    position: relative;
+    background: black;
+    width: 100%;
+    height: 42.99vw;
+}
+.top2{
+    position: relative;
+    background: black;
+    width: 100%;
+    height: 42.7vw;
+}
+.subText{
+    font-family: Orbitron;
+    width: 50%;
+    position: absolute;
+    color: #ecf0f1;
+    font-size: 1.1vw;
+    letter-spacing: 1px;
+    vertical-align: middle; 
+    text-align: center; 
+    background: -webkit-linear-gradient(175deg, #2ECC71 0%, #3498DB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 25%;
+    padding-top: 22%;
+    z-index: 1;
+}
+.middle{
+    background: linear-gradient(175deg, #2ECC71 0%, #1abc9c 100%);
+    width: 100%;
+    height: 50px;
+    float: left;
+    position: relative;
+}
+.bottom{
+    position: static;
+    top:50px;
+    width: 100%;
+    height:55vw;
+    font-size: 0;
+}
+.bottom .left{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: #ecf0f1;
+}
+.bottom .right{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: #bdc3c7;
+}
+.bottom .Categorie{
+    position: absolute;
+    width: 40%;
+    height: 50px;
+    background: linear-gradient(145deg, #2ECC71 0%, #1abc9c 100%);
+    border-radius: 7px;
+    top:5%;
+    left: 50%;
+    margin-left: -20%;
+    color: #ecf0f1;
+    font-size: 2vw;
+    font-family: Allerta;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.bottom .produs{
+    position: absolute;
+    top:14%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 73%;
+}
+.produs .cutieProdus{
+    position: relative;
+    margin-left: 13%;
+    margin-bottom: 13%;
+    width: 300px;
+    height: 320px;
+    border-radius: 10px;
+}
+.left .cutieProdus{
+    background: #bdc3c7;
+}
+.right .cutieProdus{
+    background: #ecf0f1;
+}
+.butonCumpara{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    margin-left:-25%;
+    border-radius: 15px;
+    height: 15%;
+    width: 50%;
+    background: linear-gradient(145deg, #2ECC71 0%, #1abc9c 100%);
+    text-align: center;
+    overflow:hidden;
+}
+.butonCumpara h3{
+    padding-top: 8px;
+    padding-bottom: 90px;
+    font-size: 1.15vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #ecf0f1;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.imgMiddle{
+    height: auto; 
+    width: auto; 
+    max-height: 200px;
+    z-index: 1;
+    transition: 0.5s;
+}
+.imgMiddle:hover{
+    max-height: 230px;
+    transition: 0.5s;
+}
+.cutieProdus img:hover{
+    left:45%;
+    transition: 0.5s;
+    top: 3px;
+}
+.cutieProdus img{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -32%;
+    transition: 0.5s;
+}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:active{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:focus{text-decoration: none;}
+.noteUtil{
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background: #ecf0f1;
+}
+.noteUtil .nota{
+    position: relative;
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    border:0px;
+    border-left: 5px;
+    border-style: solid;
+    border-color: #2ECC71;
+    background: #ecf0f1;
+}
+.nota .numeUtil{
+    position: absolute;
+    padding: 15px;
+    left: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.nota .comentUtil{
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    top:50px;
+    left:35px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.rating img{
+    width: 20px;
+    padding: 2px;
+}
+.rating{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+.cutieContact{
+    position: absolute;
+    top: 50%;
+    margin: -14%;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    background: linear-gradient(145deg, #2ECC71 0%, #1abc9c 100%);
+    box-shadow: 0px 0px 26px 2px rgba(0,0,0,0.28);
+    text-align: center;
+    font-family: Allerta;
+    color: #ecf0f1;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.cutieContact h2{
+    margin: 20px;
+}
+.mail{
+    left:70%;
+}
+.telefon{
+    left:35%;
+}
+.telefon h3{
+    position: static;
+    padding: 20px;
+}
+.telefon p{
+    position: static;
+    padding: 20px;
+}
+.mail textarea{
+    resize:none;
+    border-radius: 7px;
+    border: 0px;
+}
+.butonTrimite {
+    background: #1abc9c;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    margin: 20px;
+    box-shadow: 0px 0px 12px -4px #000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 45px;
+	text-decoration:none;
+	text-shadow:0px 0px 2px #2f6627;
+    font-family: Montserrat;
+}
+.butonTrimite:hover {
+    
+}
+.butonTrimite:active {
+	position:relative;
+	top:1px;
+}
+.cutieInfo{
+    top:15%;
+    left: 20%;
+    position: absolute;
+    width: 1200px;
+    height:650px;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    box-shadow: 7px 8px 35px -7px rgba(0,0,0,0.36);
+}
+.tabelNav{
+    padding-bottom: 200px;
+    padding-top: 5px;
+    background: linear-gradient(0deg, #2ECC72 0%, #1bbd9a 100%);
+    border-radius: 5px;
+    height: 650px;
+    width: 250px;
+    font-family: Montserrat;
+    color: #ecf0f1;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+}
+.tabelNav a{
+    display:block;
+    padding:45px;
+}
+.tabelNav .activ{
+        background-color:rgba(0, 0, 0, 0.1);
+}
+.cutieDet{
+    position:absolute;
+    top:60px;
+    left: 300px;
+    width: 800px;.
+    font-size: 15px;
+    font-family: Arial;
+    letter-spacing: 1px;
+}
+.cutieDet h2{
+    font-family: Montserrat;
+}
